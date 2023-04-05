@@ -1,0 +1,13 @@
+.company-info {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .company-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
